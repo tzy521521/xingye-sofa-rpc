@@ -1,0 +1,416 @@
+2018-12-04 17:40:01,045 INFO  main                             - SOFABoot Runtime Starting!
+2018-12-04 17:40:02,833 INFO  main                             - Registering component: service:cloud.provider.facade.CallerService
+2018-12-04 17:40:02,833 INFO  main                             -  <<PreOut Binding [tr] Begins - cloud.provider.facade.CallerService.
+2018-12-04 17:40:02,900 ERROR main                             -  <<PreOut Binding [tr] for [cloud.provider.facade.CallerService] occur exception.
+com.alipay.sofa.rpc.boot.common.SofaBootRpcRuntimeException: registry config [C:\Users\LYF\localFileRegistry\localRegistry.reg] is not supported
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:137)
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:150)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.createProviderConfig(TrBindingAdapter.java:332)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.preOutBinding(TrBindingAdapter.java:67)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.preOutBinding(TrBindingAdapter.java:59)
+	at com.alipay.sofa.runtime.service.component.ServiceComponent.resolveBinding(ServiceComponent.java:105)
+	at com.alipay.sofa.runtime.service.component.ServiceComponent.resolve(ServiceComponent.java:75)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.doRegister(ComponentManagerImpl.java:154)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.register(ComponentManagerImpl.java:112)
+	at com.alipay.sofa.runtime.spring.factory.ServiceFactoryBean.doAfterPropertiesSet(ServiceFactoryBean.java:69)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.afterPropertiesSet(AbstractContractFactoryBean.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:742)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at cloud.provider.SOFABootSpringApplication.main(SOFABootSpringApplication.java:18)
+2018-12-04 17:40:02,902 ERROR main                             - Failed to create the component service:cloud.provider.facade.CallerService
+com.alipay.sofa.runtime.api.ServiceRuntimeException:  <<PreOut Binding [cloud.provider.facade.CallerService] occur exception.
+	at com.alipay.sofa.runtime.service.component.ServiceComponent.resolveBinding(ServiceComponent.java:117)
+	at com.alipay.sofa.runtime.service.component.ServiceComponent.resolve(ServiceComponent.java:75)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.doRegister(ComponentManagerImpl.java:154)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.register(ComponentManagerImpl.java:112)
+	at com.alipay.sofa.runtime.spring.factory.ServiceFactoryBean.doAfterPropertiesSet(ServiceFactoryBean.java:69)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.afterPropertiesSet(AbstractContractFactoryBean.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:742)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at cloud.provider.SOFABootSpringApplication.main(SOFABootSpringApplication.java:18)
+2018-12-04 17:40:59,031 INFO  main                             - SOFABoot Runtime Starting!
+2018-12-04 17:41:02,032 INFO  main                             - Registering component: reference:cloud.provider.facade.CallerService:#-1996787984
+2018-12-04 17:41:02,032 INFO  main                             -  >>In Binding [tr] Begins - cloud.provider.facade.CallerService.
+2018-12-04 17:41:02,132 INFO  main                             -  >>In Binding [tr] Ends - cloud.provider.facade.CallerService.
+2018-12-04 17:41:02,132 ERROR main                             - Failed to create the component reference:cloud.provider.facade.CallerService:#-1996787984
+com.alipay.sofa.rpc.boot.common.SofaBootRpcRuntimeException: registry config [C:\Users\LYF\localFileRegistry\localRegistry.reg] is not supported
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:137)
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:150)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.createConsumerConfig(TrBindingAdapter.java:192)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.inBinding(TrBindingAdapter.java:132)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.inBinding(TrBindingAdapter.java:59)
+	at com.alipay.sofa.runtime.service.component.ReferenceComponent.createProxy(ReferenceComponent.java:229)
+	at com.alipay.sofa.runtime.service.component.ReferenceComponent.activate(ReferenceComponent.java:145)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.doRegister(ComponentManagerImpl.java:156)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.registerAndGet(ComponentManagerImpl.java:116)
+	at com.alipay.sofa.runtime.service.helper.ReferenceRegisterHelper.registerReference(ReferenceRegisterHelper.java:58)
+	at com.alipay.sofa.runtime.spring.factory.ReferenceFactoryBean.doAfterPropertiesSet(ReferenceFactoryBean.java:58)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.afterPropertiesSet(AbstractContractFactoryBean.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1136)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1064)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1269)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at cloud.consumer.SOFABootWebSpringApplication.main(SOFABootWebSpringApplication.java:22)
+2018-12-04 17:41:42,392 INFO  main                             - SOFABoot Runtime Starting!
+2018-12-04 17:41:43,818 INFO  main                             - Registering component: service:cloud.provider.facade.CallerService
+2018-12-04 17:41:43,818 INFO  main                             -  <<PreOut Binding [tr] Begins - cloud.provider.facade.CallerService.
+2018-12-04 17:41:43,868 ERROR main                             -  <<PreOut Binding [tr] for [cloud.provider.facade.CallerService] occur exception.
+com.alipay.sofa.rpc.boot.common.SofaBootRpcRuntimeException: registry config [C:\Users\LYF\localFileRegistry\localRegistry.reg] is not supported
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:137)
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:150)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.createProviderConfig(TrBindingAdapter.java:332)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.preOutBinding(TrBindingAdapter.java:67)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.preOutBinding(TrBindingAdapter.java:59)
+	at com.alipay.sofa.runtime.service.component.ServiceComponent.resolveBinding(ServiceComponent.java:105)
+	at com.alipay.sofa.runtime.service.component.ServiceComponent.resolve(ServiceComponent.java:75)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.doRegister(ComponentManagerImpl.java:154)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.register(ComponentManagerImpl.java:112)
+	at com.alipay.sofa.runtime.spring.factory.ServiceFactoryBean.doAfterPropertiesSet(ServiceFactoryBean.java:69)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.afterPropertiesSet(AbstractContractFactoryBean.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:742)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at cloud.provider.SOFABootSpringApplication.main(SOFABootSpringApplication.java:18)
+2018-12-04 17:41:43,868 ERROR main                             - Failed to create the component service:cloud.provider.facade.CallerService
+com.alipay.sofa.runtime.api.ServiceRuntimeException:  <<PreOut Binding [cloud.provider.facade.CallerService] occur exception.
+	at com.alipay.sofa.runtime.service.component.ServiceComponent.resolveBinding(ServiceComponent.java:117)
+	at com.alipay.sofa.runtime.service.component.ServiceComponent.resolve(ServiceComponent.java:75)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.doRegister(ComponentManagerImpl.java:154)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.register(ComponentManagerImpl.java:112)
+	at com.alipay.sofa.runtime.spring.factory.ServiceFactoryBean.doAfterPropertiesSet(ServiceFactoryBean.java:69)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.afterPropertiesSet(AbstractContractFactoryBean.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:742)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at cloud.provider.SOFABootSpringApplication.main(SOFABootSpringApplication.java:18)
+2018-12-04 17:42:34,980 INFO  main                             - SOFABoot Runtime Starting!
+2018-12-04 17:42:37,638 INFO  main                             - Registering component: reference:cloud.provider.facade.CallerService:#-1996787984
+2018-12-04 17:42:37,638 INFO  main                             -  >>In Binding [tr] Begins - cloud.provider.facade.CallerService.
+2018-12-04 17:42:37,770 INFO  main                             -  >>In Binding [tr] Ends - cloud.provider.facade.CallerService.
+2018-12-04 17:42:37,770 ERROR main                             - Failed to create the component reference:cloud.provider.facade.CallerService:#-1996787984
+com.alipay.sofa.rpc.boot.common.SofaBootRpcRuntimeException: registry config [C:\Users\LYF\localFileRegistry\localRegistry.reg] is not supported
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:137)
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:150)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.createConsumerConfig(TrBindingAdapter.java:192)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.inBinding(TrBindingAdapter.java:132)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.inBinding(TrBindingAdapter.java:59)
+	at com.alipay.sofa.runtime.service.component.ReferenceComponent.createProxy(ReferenceComponent.java:229)
+	at com.alipay.sofa.runtime.service.component.ReferenceComponent.activate(ReferenceComponent.java:145)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.doRegister(ComponentManagerImpl.java:156)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.registerAndGet(ComponentManagerImpl.java:116)
+	at com.alipay.sofa.runtime.service.helper.ReferenceRegisterHelper.registerReference(ReferenceRegisterHelper.java:58)
+	at com.alipay.sofa.runtime.spring.factory.ReferenceFactoryBean.doAfterPropertiesSet(ReferenceFactoryBean.java:58)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.afterPropertiesSet(AbstractContractFactoryBean.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1136)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1064)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1269)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at cloud.consumer.SOFABootWebSpringApplication.main(SOFABootWebSpringApplication.java:22)
+2018-12-04 17:47:59,253 INFO  main                             - SOFABoot Runtime Starting!
+2018-12-04 17:48:00,669 INFO  main                             - Registering component: service:cloud.provider.facade.CallerService
+2018-12-04 17:48:00,669 INFO  main                             -  <<PreOut Binding [tr] Begins - cloud.provider.facade.CallerService.
+2018-12-04 17:48:00,715 ERROR main                             -  <<PreOut Binding [tr] for [cloud.provider.facade.CallerService] occur exception.
+com.alipay.sofa.rpc.boot.common.SofaBootRpcRuntimeException: registry config [C:\Users\LYF\localFileRegistry\localRegistry.reg] is not supported
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:137)
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:150)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.createProviderConfig(TrBindingAdapter.java:332)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.preOutBinding(TrBindingAdapter.java:67)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.preOutBinding(TrBindingAdapter.java:59)
+	at com.alipay.sofa.runtime.service.component.ServiceComponent.resolveBinding(ServiceComponent.java:105)
+	at com.alipay.sofa.runtime.service.component.ServiceComponent.resolve(ServiceComponent.java:75)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.doRegister(ComponentManagerImpl.java:154)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.register(ComponentManagerImpl.java:112)
+	at com.alipay.sofa.runtime.spring.factory.ServiceFactoryBean.doAfterPropertiesSet(ServiceFactoryBean.java:69)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.afterPropertiesSet(AbstractContractFactoryBean.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:742)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at cloud.provider.SOFABootSpringApplication.main(SOFABootSpringApplication.java:18)
+2018-12-04 17:48:00,716 ERROR main                             - Failed to create the component service:cloud.provider.facade.CallerService
+com.alipay.sofa.runtime.api.ServiceRuntimeException:  <<PreOut Binding [cloud.provider.facade.CallerService] occur exception.
+	at com.alipay.sofa.runtime.service.component.ServiceComponent.resolveBinding(ServiceComponent.java:117)
+	at com.alipay.sofa.runtime.service.component.ServiceComponent.resolve(ServiceComponent.java:75)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.doRegister(ComponentManagerImpl.java:154)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.register(ComponentManagerImpl.java:112)
+	at com.alipay.sofa.runtime.spring.factory.ServiceFactoryBean.doAfterPropertiesSet(ServiceFactoryBean.java:69)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.afterPropertiesSet(AbstractContractFactoryBean.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:742)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at cloud.provider.SOFABootSpringApplication.main(SOFABootSpringApplication.java:18)
+2018-12-04 17:48:33,677 INFO  main                             - SOFABoot Runtime Starting!
+2018-12-04 17:48:36,431 INFO  main                             - Registering component: reference:cloud.provider.facade.CallerService:#-1996787984
+2018-12-04 17:48:36,432 INFO  main                             -  >>In Binding [tr] Begins - cloud.provider.facade.CallerService.
+2018-12-04 17:48:36,547 INFO  main                             -  >>In Binding [tr] Ends - cloud.provider.facade.CallerService.
+2018-12-04 17:48:36,548 ERROR main                             - Failed to create the component reference:cloud.provider.facade.CallerService:#-1996787984
+com.alipay.sofa.rpc.boot.common.SofaBootRpcRuntimeException: registry config [C:\Users\LYF\localFileRegistry\localRegistry.reg] is not supported
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:137)
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:150)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.createConsumerConfig(TrBindingAdapter.java:192)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.inBinding(TrBindingAdapter.java:132)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.inBinding(TrBindingAdapter.java:59)
+	at com.alipay.sofa.runtime.service.component.ReferenceComponent.createProxy(ReferenceComponent.java:229)
+	at com.alipay.sofa.runtime.service.component.ReferenceComponent.activate(ReferenceComponent.java:145)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.doRegister(ComponentManagerImpl.java:156)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.registerAndGet(ComponentManagerImpl.java:116)
+	at com.alipay.sofa.runtime.service.helper.ReferenceRegisterHelper.registerReference(ReferenceRegisterHelper.java:58)
+	at com.alipay.sofa.runtime.spring.factory.ReferenceFactoryBean.doAfterPropertiesSet(ReferenceFactoryBean.java:58)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.afterPropertiesSet(AbstractContractFactoryBean.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1136)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1064)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1269)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at cloud.consumer.SOFABootWebSpringApplication.main(SOFABootWebSpringApplication.java:22)
+2018-12-04 17:50:43,995 INFO  main                             - SOFABoot Runtime Starting!
+2018-12-04 17:50:47,208 INFO  main                             - Registering component: reference:cloud.provider.facade.CallerService:#-1422221322
+2018-12-04 17:50:47,208 INFO  main                             -  >>In Binding [tr] Begins - cloud.provider.facade.CallerService.
+2018-12-04 17:50:47,294 INFO  main                             -  >>In Binding [tr] Ends - cloud.provider.facade.CallerService.
+2018-12-04 17:50:47,295 ERROR main                             - Failed to create the component reference:cloud.provider.facade.CallerService:#-1422221322
+com.alipay.sofa.rpc.boot.common.SofaBootRpcRuntimeException: registry config [C:\Users\LYF\localFileRegistry\localRegistry.reg] is not supported
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:137)
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:150)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.createConsumerConfig(TrBindingAdapter.java:192)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.inBinding(TrBindingAdapter.java:132)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.inBinding(TrBindingAdapter.java:59)
+	at com.alipay.sofa.runtime.service.component.ReferenceComponent.createProxy(ReferenceComponent.java:229)
+	at com.alipay.sofa.runtime.service.component.ReferenceComponent.activate(ReferenceComponent.java:145)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.doRegister(ComponentManagerImpl.java:156)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.registerAndGet(ComponentManagerImpl.java:116)
+	at com.alipay.sofa.runtime.service.helper.ReferenceRegisterHelper.registerReference(ReferenceRegisterHelper.java:58)
+	at com.alipay.sofa.runtime.spring.factory.ReferenceFactoryBean.doAfterPropertiesSet(ReferenceFactoryBean.java:58)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.afterPropertiesSet(AbstractContractFactoryBean.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:742)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at cloud.consumer.SOFABootWebSpringApplication.main(SOFABootWebSpringApplication.java:22)
+2018-12-04 17:53:06,623 INFO  main                             - SOFABoot Runtime Starting!
+2018-12-04 17:53:09,420 INFO  main                             - Registering component: reference:cloud.provider.facade.CallerService:#-1422221322
+2018-12-04 17:53:09,420 INFO  main                             -  >>In Binding [tr] Begins - cloud.provider.facade.CallerService.
+2018-12-04 17:53:09,544 INFO  main                             -  >>In Binding [tr] Ends - cloud.provider.facade.CallerService.
+2018-12-04 17:53:09,545 ERROR main                             - Failed to create the component reference:cloud.provider.facade.CallerService:#-1422221322
+com.alipay.sofa.rpc.boot.common.SofaBootRpcRuntimeException: registry config [C:\Users\LYF\localFileRegistry\localRegistry.reg] is not supported
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:137)
+	at com.alipay.sofa.rpc.boot.container.RegistryConfigContainer.getRegistryConfig(RegistryConfigContainer.java:150)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.createConsumerConfig(TrBindingAdapter.java:192)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.inBinding(TrBindingAdapter.java:132)
+	at com.alipay.boot.sofarpc.adapter.TrBindingAdapter.inBinding(TrBindingAdapter.java:59)
+	at com.alipay.sofa.runtime.service.component.ReferenceComponent.createProxy(ReferenceComponent.java:229)
+	at com.alipay.sofa.runtime.service.component.ReferenceComponent.activate(ReferenceComponent.java:145)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.doRegister(ComponentManagerImpl.java:156)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.registerAndGet(ComponentManagerImpl.java:116)
+	at com.alipay.sofa.runtime.service.helper.ReferenceRegisterHelper.registerReference(ReferenceRegisterHelper.java:58)
+	at com.alipay.sofa.runtime.spring.factory.ReferenceFactoryBean.doAfterPropertiesSet(ReferenceFactoryBean.java:58)
+	at com.alipay.sofa.runtime.spring.factory.AbstractContractFactoryBean.afterPropertiesSet(AbstractContractFactoryBean.java:96)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1136)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1064)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1269)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at cloud.consumer.SOFABootWebSpringApplication.main(SOFABootWebSpringApplication.java:22)
+2018-12-04 18:16:56,479 INFO  main                             - SOFABoot Runtime Starting!
+2018-12-04 18:16:59,045 INFO  main                             - Registering component: reference:cloud.provider.facade.CallerService:#-1996787984
+2018-12-04 18:16:59,045 INFO  main                             -  >>In Binding [tr] Begins - cloud.provider.facade.CallerService.
+2018-12-04 18:16:59,279 INFO  main                             -  >>In Binding [tr] Ends - cloud.provider.facade.CallerService.
+2018-12-04 18:16:59,279 INFO  main                             -  >>In Binding [jvm] Begins - cloud.provider.facade.CallerService.
+2018-12-04 18:16:59,279 INFO  main                             -  >>In Binding [jvm] Ends - cloud.provider.facade.CallerService.
+2018-12-04 18:18:57,063 INFO  main                             - SOFABoot Runtime Starting!
+2018-12-04 18:18:59,716 INFO  main                             - Registering component: reference:cloud.provider.facade.CallerService:#-1996787984
+2018-12-04 18:18:59,716 INFO  main                             -  >>In Binding [tr] Begins - cloud.provider.facade.CallerService.
+2018-12-04 18:18:59,971 INFO  main                             -  >>In Binding [tr] Ends - cloud.provider.facade.CallerService.
+2018-12-04 18:18:59,971 INFO  main                             -  >>In Binding [jvm] Begins - cloud.provider.facade.CallerService.
+2018-12-04 18:18:59,973 INFO  main                             -  >>In Binding [jvm] Ends - cloud.provider.facade.CallerService.
+2018-12-04 18:19:12,708 INFO  main                             - SOFABoot Runtime Starting!
+2018-12-04 18:19:15,313 INFO  main                             - Registering component: service:cloud.provider.facade.CallerService
+2018-12-04 18:19:15,313 INFO  main                             -  <<PreOut Binding [tr] Begins - cloud.provider.facade.CallerService.
+2018-12-04 18:19:15,365 INFO  main                             -  <<PreOut Binding [tr] Ends - cloud.provider.facade.CallerService.
+2018-12-04 18:19:15,365 INFO  main                             -  <<Out Binding [tr] Begins - cloud.provider.facade.CallerService.
+2018-12-04 18:19:15,388 INFO  main                             -  <<Out Binding [tr] Ends - cloud.provider.facade.CallerService.
+2018-12-04 18:19:15,388 INFO  main                             - Register Service - cloud.provider.facade.CallerService
+2018-12-04 18:30:40,680 INFO  main                             - SOFABoot Runtime Starting!
+2018-12-04 18:30:44,461 INFO  main                             - Registering component: service:cloud.provider.facade.CallerService
+2018-12-04 18:30:44,461 INFO  main                             -  <<PreOut Binding [tr] Begins - cloud.provider.facade.CallerService.
+2018-12-04 18:30:44,539 INFO  main                             -  <<PreOut Binding [tr] Ends - cloud.provider.facade.CallerService.
+2018-12-04 18:30:44,539 INFO  main                             -  <<Out Binding [tr] Begins - cloud.provider.facade.CallerService.
+2018-12-04 18:30:44,570 INFO  main                             -  <<Out Binding [tr] Ends - cloud.provider.facade.CallerService.
+2018-12-04 18:30:44,570 INFO  main                             - Register Service - cloud.provider.facade.CallerService
+2018-12-04 18:31:08,617 INFO  main                             - SOFABoot Runtime Starting!
+2018-12-04 18:31:11,633 INFO  main                             - Registering component: reference:cloud.provider.facade.CallerService:#-1996787984
+2018-12-04 18:31:11,633 INFO  main                             -  >>In Binding [tr] Begins - cloud.provider.facade.CallerService.
+2018-12-04 18:31:12,023 INFO  main                             -  >>In Binding [tr] Ends - cloud.provider.facade.CallerService.
+2018-12-04 18:31:12,023 INFO  main                             -  >>In Binding [jvm] Begins - cloud.provider.facade.CallerService.
+2018-12-04 18:31:12,023 INFO  main                             -  >>In Binding [jvm] Ends - cloud.provider.facade.CallerService.

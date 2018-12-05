@@ -1,0 +1,9 @@
+2018-12-04 18:16:59,195 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file failure cause by can't found file: C:\Users\LYF\localFileRegistry\localRegistry.reg
+2018-12-04 18:18:59,888 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file failure cause by can't found file: C:\Users\LYF\localFileRegistry\localRegistry.reg
+2018-12-04 18:30:46,945 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file failure cause by can't found file: C:\Users\LYF\localFileRegistry\localRegistry.reg
+2018-12-04 18:30:46,961 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00205: RPC 服务[cloud.provider.facade.CallerService:1.0@DEFAULT]发布开始 
+2018-12-04 18:30:46,961 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00201: 发布 RPC 服务：服务名[cloud.provider.facade.CallerService:1.0@DEFAULT] 
+2018-12-04 18:30:46,977 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\LYF\localFileRegistry\localRegistry.reg
+2018-12-04 18:30:46,977 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00206: RPC 服务[cloud.provider.facade.CallerService:1.0@DEFAULT]发布结束 
+2018-12-04 18:30:48,961 INFO  SOFA-LocalRegistry-Back-Load-4-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\LYF\localFileRegistry\localRegistry.reg
+2018-12-04 18:31:11,789 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\LYF\localFileRegistry\localRegistry.reg

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bank-sofa-provider-facade" />
+        <module name="bank-sofa-provider-service" />
+        <module name="xingye-sofa-rpc-consumer-endpoint" />
+        <module name="xingye-sofa-rpc-consumer-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bank-sofa-provider-facade" target="1.8" />
+      <module name="bank-sofa-provider-parent" target="1.8" />
+      <module name="bank-sofa-provider-service" target="1.8" />
+      <module name="xingye-sofa-rpc-consumer-endpoint" target="1.8" />
+      <module name="xingye-sofa-rpc-consumer-parent" target="1.8" />
+      <module name="xingye-sofa-rpc-consumer-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+2018-12-04 18:32:17.493,bank-sofa-provider,ac140a0d154391953713310059968,0.1.2,cloud.provider.facade.CallerService:1.0,message,bolt,,10.0.75.1,xingye-sofa-rpc-consumer,,,0ms,0ms,SOFA-SEV-BOLT-BIZ-12200-3-T1,00,,,0ms,,
+2018-12-04 18:35:09.774,bank-sofa-provider,ac140a0d154391970977410069968,0.1.2,cloud.provider.facade.CallerService:1.0,message,bolt,,10.0.75.1,xingye-sofa-rpc-consumer,,,0ms,0ms,SOFA-SEV-BOLT-BIZ-12200-3-T2,00,,,0ms,,
+2018-12-04 18:35:27.569,bank-sofa-provider,ac140a0d154391972756910079968,0.1.2,cloud.provider.facade.CallerService:1.0,message,bolt,,10.0.75.1,xingye-sofa-rpc-consumer,,,0ms,0ms,SOFA-SEV-BOLT-BIZ-12200-3-T3,00,,,0ms,,
+2018-12-04 18:35:29.413,bank-sofa-provider,ac140a0d154391972939710089968,0.1.2,cloud.provider.facade.CallerService:1.0,message,bolt,,10.0.75.1,xingye-sofa-rpc-consumer,,,0ms,0ms,SOFA-SEV-BOLT-BIZ-12200-3-T4,00,,,0ms,,
+2018-12-04 18:35:49.854,bank-sofa-provider,ac140a0d154391974985410119968,0.1.2,cloud.provider.facade.CallerService:1.0,message,bolt,,10.0.75.1,xingye-sofa-rpc-consumer,,,0ms,0ms,SOFA-SEV-BOLT-BIZ-12200-3-T5,00,,,0ms,,
+2018-12-04 18:36:21.538,bank-sofa-provider,ac140a0d154391978152310129968,0.1.2,cloud.provider.facade.CallerService:1.0,message,bolt,,10.0.75.1,xingye-sofa-rpc-consumer,,,0ms,0ms,SOFA-SEV-BOLT-BIZ-12200-3-T6,00,,,15ms,,
+2018-12-04 18:37:33.200,bank-sofa-provider,ac140a0d154391985318810139968,0.1.2,cloud.provider.facade.CallerService:1.0,datasource,bolt,,10.0.75.1,xingye-sofa-rpc-consumer,,,2ms,0ms,SOFA-SEV-BOLT-BIZ-12200-3-T7,00,,,0ms,,
+2018-12-04 18:37:40.476,bank-sofa-provider,ac140a0d154391986046910149968,0.1.2,cloud.provider.facade.CallerService:1.0,message,bolt,,10.0.75.1,xingye-sofa-rpc-consumer,,,0ms,0ms,SOFA-SEV-BOLT-BIZ-12200-3-T8,00,,,1ms,,

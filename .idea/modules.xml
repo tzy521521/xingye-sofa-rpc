@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/xingye-sofa-rpc-provider/bank-sofa-provider-facade/bank-sofa-provider-facade.iml" filepath="$PROJECT_DIR$/xingye-sofa-rpc-provider/bank-sofa-provider-facade/bank-sofa-provider-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xingye-sofa-rpc-provider/bank-sofa-provider-parent.iml" filepath="$PROJECT_DIR$/xingye-sofa-rpc-provider/bank-sofa-provider-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xingye-sofa-rpc-provider/bank-sofa-provider-service/bank-sofa-provider-service.iml" filepath="$PROJECT_DIR$/xingye-sofa-rpc-provider/bank-sofa-provider-service/bank-sofa-provider-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/xingye-sofa-rpc.iml" filepath="$PROJECT_DIR$/.idea/xingye-sofa-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xingye-sofa-rpc-consumer/app/endpoint/xingye-sofa-rpc-consumer-endpoint.iml" filepath="$PROJECT_DIR$/xingye-sofa-rpc-consumer/app/endpoint/xingye-sofa-rpc-consumer-endpoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xingye-sofa-rpc-consumer/xingye-sofa-rpc-consumer-parent.iml" filepath="$PROJECT_DIR$/xingye-sofa-rpc-consumer/xingye-sofa-rpc-consumer-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xingye-sofa-rpc-consumer/app/web/xingye-sofa-rpc-consumer-web.iml" filepath="$PROJECT_DIR$/xingye-sofa-rpc-consumer/app/web/xingye-sofa-rpc-consumer-web.iml" />
+    </modules>
+  </component>
+</project>

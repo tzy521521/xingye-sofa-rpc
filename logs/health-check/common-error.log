@@ -1,0 +1,27 @@
+2018-12-04 17:40:23,689 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:cloud.provider.facade.CallerService":"Status: REGISTERED"}; strict mode:true
+2018-12-04 17:40:23,689 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2018-12-04 17:40:24,604 ERROR main                             - Readiness check result: fail
+2018-12-04 17:40:25,125 ERROR RMI TCP Connection(6)-127.0.0.1  - HealthChecker[sofaComponentHealthChecker] liveness check fail with 0 retry; fail details:{"service:cloud.provider.facade.CallerService":"Status: REGISTERED"}; strict mode:true
+2018-12-04 17:40:25,125 ERROR RMI TCP Connection(6)-127.0.0.1  - SOFABoot HealthChecker liveness check result: failed.
+2018-12-04 17:42:04,565 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:cloud.provider.facade.CallerService":"Status: REGISTERED"}; strict mode:true
+2018-12-04 17:42:04,566 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2018-12-04 17:42:05,454 ERROR main                             - Readiness check result: fail
+2018-12-04 17:42:05,720 ERROR RMI TCP Connection(10)-127.0.0.1 - HealthChecker[sofaComponentHealthChecker] liveness check fail with 0 retry; fail details:{"service:cloud.provider.facade.CallerService":"Status: REGISTERED"}; strict mode:true
+2018-12-04 17:42:05,720 ERROR RMI TCP Connection(10)-127.0.0.1 - SOFABoot HealthChecker liveness check result: failed.
+2018-12-04 17:48:21,406 ERROR main                             - HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"service:cloud.provider.facade.CallerService":"Status: REGISTERED"}; strict mode:true
+2018-12-04 17:48:21,406 ERROR main                             - SOFABoot HealthChecker readiness check result: failed.
+2018-12-04 17:48:22,315 ERROR main                             - Readiness check result: fail
+2018-12-04 17:48:22,539 ERROR RMI TCP Connection(4)-127.0.0.1  - HealthChecker[sofaComponentHealthChecker] liveness check fail with 0 retry; fail details:{"service:cloud.provider.facade.CallerService":"Status: REGISTERED"}; strict mode:true
+2018-12-04 17:48:22,539 ERROR RMI TCP Connection(4)-127.0.0.1  - SOFABoot HealthChecker liveness check result: failed.
+2018-12-04 18:17:01,457 ERROR main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check failed, the details is: {"Exception":"Failed to start bolt server, see more detail from bolt log."}.
+2018-12-04 18:17:01,457 ERROR main                             - SofaBootMiddlewareAfterReadinessCheckCallback check result: failed.
+2018-12-04 18:17:01,457 ERROR main                             - SOFABoot ReadinessCheckCallback check: failed.
+2018-12-04 18:17:01,457 ERROR main                             - Readiness check result: fail
+2018-12-04 18:19:17,240 ERROR main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check failed, the details is: {"Exception":"Failed to start bolt server, see more detail from bolt log."}.
+2018-12-04 18:19:17,240 ERROR main                             - SofaBootMiddlewareAfterReadinessCheckCallback check result: failed.
+2018-12-04 18:19:17,240 ERROR main                             - SOFABoot ReadinessCheckCallback check: failed.
+2018-12-04 18:19:17,240 ERROR main                             - Readiness check result: fail
+2018-12-04 18:31:14,351 ERROR main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check failed, the details is: {"Exception":"Failed to start bolt server, see more detail from bolt log."}.
+2018-12-04 18:31:14,351 ERROR main                             - SofaBootMiddlewareAfterReadinessCheckCallback check result: failed.
+2018-12-04 18:31:14,351 ERROR main                             - SOFABoot ReadinessCheckCallback check: failed.
+2018-12-04 18:31:14,351 ERROR main                             - Readiness check result: fail
